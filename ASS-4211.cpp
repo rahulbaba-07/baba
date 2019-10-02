@@ -1,3 +1,4 @@
+   2nd list_2nd programme.. 
 #include <iostream>
 using namespace std;
 class student
@@ -89,3 +90,6 @@ class student
 		p->display();
 		return 0;
 }
+1st_list_2nd programme..
+
+Fw: #include<iostream> using namespace std; class batsman { 	int bcode; 	string bname; 	int innings,notout,runs; 	float batavg; 	void calcavg() 	{     	batavg=runs/(innings-notout); 	} public : 	void getdata(); 	void displaydata(); }; void batsman::getdata() { 	cout<<"Enter batsman code"; 	cin>>bcode; 	cout<<"Enter batsman name"; 	cin>>bname; cout<<"enter innings,notout and runs"; 	cin>>innings>>notout>>runs; calcavg(); } void batsman::displaydata() { 	cout<<"batsman code"<<bcode<<"\nbatsman name"<<bname<
